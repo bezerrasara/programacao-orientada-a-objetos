@@ -1,5 +1,5 @@
 def mesPorExtenso(dia,mes,ano):
-    meses = (0,'janeiro','fevereiro','marco','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
+    meses = (0,'janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
     dia = int(dia)
     mes = int(mes)
     ano = int(ano)
