@@ -2,8 +2,8 @@ from random import randint
 n = int (input())
 matriz = list()
 for i in range (n):
-    #randint(1,9)
-    matriz.append(list(randint(1,9)).split())
+    randint(1,9)
+    matriz.append(list().split())
 lista = []
 for i in range(n):
     soma = 0

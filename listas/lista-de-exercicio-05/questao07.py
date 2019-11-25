@@ -1,7 +1,7 @@
 
 def valor_pagamento(valor,dias):
     if dias > 0:
-        v = valor+(valor*(3/100))+((0.1/100)*dias)
+        v = valor+(valor*(3/100))+(valor*(0.1/100))*dias
         print ('valor com juros: ',v)       
     elif dias == 0:
         print('valor sem juros',valor)
