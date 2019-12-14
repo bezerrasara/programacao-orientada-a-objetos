@@ -26,13 +26,13 @@ class Macaco:
 
 
 macaco = Macaco("chico",['banana','morango','maça'])
-macaco.comer('macaco')
+macaco.comer('uva)
 macaco.ver_bucho()
 macaco.digerir()
 macaco.imprimir()
 
 macaco2 = Macaco("zé",['banana','milho','feijoada'])
-macaco2.comer('macaco')
+macaco2.comer(macaco)
 macaco2.ver_bucho()
 macaco2.digerir()
 macaco2.imprimir()
