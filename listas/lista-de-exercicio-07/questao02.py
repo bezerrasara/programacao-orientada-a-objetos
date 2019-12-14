@@ -22,14 +22,17 @@ class Computador:
         self.componentes.append(novosComponentes)
 
     def mostrar_anos_uso(self):
-        pass
+        if self.anos_uso > 6:
+            print("Seu computador está tão velho que tem problemas de junta… junta tudo e joga fora...")
+        else:
+            print(f'anos de uso: {self.anos_uso}')
 
 
     def envelhecer(self):
-        pass
+        self.anos_uso+=1
 
     def imprimir(self):
-        print(f'marca: {self.marca}\nmodelo: {self.modelo}\ncomponentes: {self.componentes}\nanos de uso: {self.anos_uso}\ncor: {self.cor}')
+        print(f'marca: {self.marca}\nmodelo: {self.modelo}\ncomponentes: {self.componentes}\nanos de uso(incrementado): {self.anos_uso}\ncor: {self.cor}')
 
 
 computador = Computador("samsung","padrao",["teclado","mouse","monitor"],5,"preto")
